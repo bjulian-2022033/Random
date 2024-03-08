@@ -1,0 +1,595 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "SalesSystem",
+    "dateExported": "2024-03-08T23:16:59.127Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-08T19:42:44.698Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "product",
+            "containerId": "",
+            "created": "2024-03-08T19:42:44.699Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-03-08T19:42:44.700Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "a4cb75a8-f529-4656-a8c6-34f8847bc1ef",
+            "name": "product exploration",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "created": "2024-03-08T19:42:44.701Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "e59b8cd0-7393-4bca-9c27-121426bf55d7",
+            "name": "shoppingCart",
+            "containerId": "",
+            "created": "2024-03-08T19:42:44.702Z",
+            "sortNum": 60000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6209a968-1d71-478f-81f3-a93b23fec945",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "register",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-08T19:42:44.699Z",
+            "modified": "2024-03-08T20:01:33.741Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Bryan"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Julian"
+                    },
+                    {
+                        "name": "email",
+                        "value": "bjulian@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "bjulian"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "87524323"
+                    },
+                    {
+                        "name": "role",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "9e9c594b-2a4b-40d9-aa8c-37ce54983ea9",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "register Copy",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-03-08T20:02:09.028Z",
+            "modified": "2024-03-08T20:02:19.904Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Bryanx"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Julianx"
+                    },
+                    {
+                        "name": "email",
+                        "value": "bjulianx@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "bjulianx"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "87524323"
+                    },
+                    {
+                        "name": "role",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "244eebb6-fa83-4db5-a1b7-e473ebcf151f",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-08T19:42:44.700Z",
+            "modified": "2024-03-08T20:03:01.806Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViNmU5ZDBmYjc3MzJhZmEzYmRkMjQiLCJ1c2VybmFtZSI6ImJqdWxpYW4iLCJuYW1lIjoiQnJ5YW4iLCJpYXQiOjE3MDk5MjgxMTIsImV4cCI6MTcwOTkzODkxMn0.0fIjY1glHXAqCM_LF2aoTCgKl4wTaFiBZy2gitccD0A"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "bjulian"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "1775a7a1-d206-42fa-b898-81b8a07a3a54",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "UpdateUser",
+            "url": "/update/65eb6ecb0fb7732afa3bdd29",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-08T19:42:44.701Z",
+            "modified": "2024-03-08T20:04:52.781Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViNmU5ZDBmYjc3MzJhZmEzYmRkMjQiLCJ1c2VybmFtZSI6ImJqdWxpYW4iLCJuYW1lIjoiQnJ5YW4iLCJpYXQiOjE3MDk5MjgxMTIsImV4cCI6MTcwOTkzODkxMn0.0fIjY1glHXAqCM_LF2aoTCgKl4wTaFiBZy2gitccD0A"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Melisa"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Rivas"
+                    },
+                    {
+                        "name": "email",
+                        "value": "melisarivas@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "mrivas"
+                    },
+                    {
+                        "name": "password",
+                        "value": "87654321",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "phone ",
+                        "value": "00128756"
+                    },
+                    {
+                        "name": "role",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "99aabb4e-ce46-4b30-9eb3-1604ffa6a26a",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "cfcbdc13-7493-4d5c-97b3-8b0190de6b8e",
+            "name": "DeleteUser",
+            "url": "/delete/65eb6c230338dfe13469b610",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T19:42:44.702Z",
+            "modified": "2024-03-08T19:53:09.058Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViNmE5MDljMWFmZjdmNTIzNjVkZmUiLCJ1c2VybmFtZSI6Im9tb250ZXJyb3NvIiwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNzA5OTI3NTc1LCJleHAiOjE3MDk5MzgzNzV9.cK8vsBi2abmA_gqODfmlNEQL-N5Q2BheNBult9VI5es"
+                }
+            ],
+            "params": [],
+            "reqType": "del",
+            "tests": []
+        },
+        {
+            "_id": "53f3cc01-9557-4216-9c18-c0b78065d564",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "saveProduct",
+            "url": "/product/saveProduct",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-08T19:42:44.703Z",
+            "modified": "2024-03-08T20:22:29.833Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameProduct",
+                        "value": "Samsung s23 ultra"
+                    },
+                    {
+                        "name": "price",
+                        "value": "10000"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "0"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65eb70120fb7732afa3bdd3d"
+                    },
+                    {
+                        "name": "sold",
+                        "value": "10"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "735e04be-e0e7-407f-9c71-4328a651f4ac",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "deleteProduct",
+            "url": "/product/deleteP/65d8683aacb041392b86b444",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-03-08T19:42:44.704Z",
+            "modified": "2024-03-08T19:42:44.704Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c1eabc97-d637-432b-bed2-67cb267e2a9f",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "UpdateProduct",
+            "url": "/product/productUpdate/65d86873acb041392b86b446",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-03-08T19:42:44.705Z",
+            "modified": "2024-03-08T19:42:44.705Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameProduct",
+                        "value": "Impresora"
+                    },
+                    {
+                        "name": "price",
+                        "value": "3500"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "10"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b9b9b1b5-f7f1-456a-a945-53834b2238b1",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": "saveCategory",
+            "url": "/category/saveCategory",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-03-08T19:42:44.707Z",
+            "modified": "2024-03-08T20:07:46.367Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Electronicos"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Celulares"
+                    }
+                ]
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "22867d67-f120-464e-ae49-34f557f65d1e",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": "UpdateCategory",
+            "url": "/category/CategoryUpdate/65eaf473044fa5445e188f3a",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-03-08T19:42:44.708Z",
+            "modified": "2024-03-08T19:42:44.708Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Electrodomésticos"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Impresora 3D marca Epson"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e326f8c6-c834-4864-bcc4-cbe62bcf0231",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": "DeleteCategory",
+            "url": "/category/deleteC/65eaf474044fa5445e188f3c",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-03-08T19:42:44.709Z",
+            "modified": "2024-03-08T19:42:44.709Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4aa98aed-e696-4548-8946-6f3dc2e58c1e",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": "ListCategory",
+            "url": "/category/get",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-03-08T19:42:44.710Z",
+            "modified": "2024-03-08T19:42:44.710Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhZjE0ZmQ0NWU5NmEzZmZjYzBjMzMiLCJ1c2VybmFtZSI6Im9tb250ZXJyb3NvIiwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNzA5ODk2MDYwLCJleHAiOjE3MDk5MDY4NjB9.j2ZMZn47gPBk830VJFA7jLHAyt5SeHX7e2D_QK3H0h8"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75db5ca5-11c8-48a7-833b-afa6e52c3905",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "getProducts",
+            "url": "/product/getProducts",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-03-08T19:42:44.711Z",
+            "modified": "2024-03-08T20:09:36.142Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViNmU5ZDBmYjc3MzJhZmEzYmRkMjQiLCJ1c2VybmFtZSI6ImJqdWxpYW4iLCJuYW1lIjoiQnJ5YW4iLCJpYXQiOjE3MDk5MjgxODEsImV4cCI6MTcwOTkzODk4MX0.WEq5vwDiMWjq-aQxC2B0hE44niyM5V5PEDhAspJAuNM"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "117c3a3e-571d-41f6-9b84-5f3d4f888385",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "searchProduct",
+            "url": "/product/searchProduct",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-03-08T19:42:44.712Z",
+            "modified": "2024-03-08T20:10:33.292Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameProduct",
+                        "value": "Samsung s23 ultra"
+                    }
+                ]
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "a7129195-a990-42aa-a45a-56ff34c7e918",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "a4cb75a8-f529-4656-a8c6-34f8847bc1ef",
+            "name": "mostproducts",
+            "url": "",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-03-08T19:42:44.713Z",
+            "modified": "2024-03-08T19:42:44.713Z",
+            "headers": []
+        },
+        {
+            "_id": "63df38e3-77b8-4b8b-9a0f-2320e9f87fbb",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "a4cb75a8-f529-4656-a8c6-34f8847bc1ef",
+            "name": "search products by name",
+            "url": "",
+            "method": "GET",
+            "sortNum": 190000,
+            "created": "2024-03-08T19:42:44.714Z",
+            "modified": "2024-03-08T19:42:44.714Z",
+            "headers": []
+        },
+        {
+            "_id": "6e73c39c-9e88-48ec-a731-bb322e4303c3",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "f009bf52-e543-4fb6-a597-bf6046df6315",
+            "name": " existing categories",
+            "url": "",
+            "method": "GET",
+            "sortNum": 200000,
+            "created": "2024-03-08T19:42:44.715Z",
+            "modified": "2024-03-08T19:42:44.715Z",
+            "headers": []
+        },
+        {
+            "_id": "1ac269fe-cf74-4610-8166-5a65f78a1d63",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "No out stock products",
+            "url": "/product/outofStock",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2024-03-08T19:42:44.716Z",
+            "modified": "2024-03-08T20:17:25.836Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "3f59d4b6-ec9f-4640-9e26-b4e4b29f635e",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "a4cb75a8-f529-4656-a8c6-34f8847bc1ef",
+            "name": "productoByCategory",
+            "url": "/product/getProductsByCategory/65eaf473044fa5445e188f3a",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2024-03-08T19:42:44.717Z",
+            "modified": "2024-03-08T19:42:44.717Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "262dbe57-fb1a-43c7-9e01-78b638bc60fc",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "e59b8cd0-7393-4bca-9c27-121426bf55d7",
+            "name": "createBuys",
+            "url": "/shopping/create",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2024-03-08T19:42:44.718Z",
+            "modified": "2024-03-08T23:08:00.294Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViNmU5ZDBmYjc3MzJhZmEzYmRkMjQiLCJ1c2VybmFtZSI6ImJqdWxpYW4iLCJuYW1lIjoiQnJ5YW4iLCJpYXQiOjE3MDk5MzkyNzIsImV4cCI6MTcwOTk1MDA3Mn0.RWspHD1vZ1tALmItsBNLUNhox-oSavCSX4_7egU3uoE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "products",
+                        "value": "65eb702f0fb7732afa3bdd3f"
+                    },
+                    {
+                        "name": "cant",
+                        "value": "5"
+                    }
+                ]
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "bf4b764c-fbe3-4b42-84bb-6e147095face",
+            "colId": "39363bd8-b8b3-4a6f-b0b2-2322ff24608e",
+            "containerId": "fa54ad46-0ea5-4cd0-8413-96738ccedeb5",
+            "name": "getTopSellingProducts",
+            "url": "/product/getTopSellingProducts",
+            "method": "GET",
+            "sortNum": 250000,
+            "created": "2024-03-08T20:23:22.127Z",
+            "modified": "2024-03-08T20:25:41.632Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    }
+}
